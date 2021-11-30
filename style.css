@@ -1,0 +1,112 @@
+body {
+	background: #926d3b ;
+	color: #181D31;
+	font-family: 'algerian', sans-serif;
+	font-size: 28px;
+}
+
+h1, h2, h3 {
+	    font-family: 'algerian', sans-serif;
+}
+ .btn-blue {
+ 	background-color: rgb(19.51.102);
+ 	color: black;
+ 	padding: 15px 20px;
+ 	border-radius: 4px
+ }
+
+ .btn-blue {
+ 	background-color: purple;
+ 	color : white;
+ }
+
+h1 {
+	color: #181D31;
+	font-size: 32px;
+	font-weight: 900;	
+}
+h2 {
+	color: #181d31;
+	font-size: 32px;
+	font-weight: 530;
+}
+a {
+	font-family: 'algerian', sans-serif;
+	text-decoration: none;
+	color: #483434;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: #FFA400;
+}
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+
+@media (max-width: 760px) { 
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 500px) { 
+	.container {
+		width: 400px
+	}
+}
+	
+
+.card-white {
+	background-color: white;
+	padding: 50px;
+	box-shadow: 100px 10px 30px rgba(0, 0, 0, 0.4);
+	border-radius: 1000px;
+	margin: 50px 1px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 40%;
+}
+
+.btn-blue {
+	background-color: #483434;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(190, 190, 190);
+}
+.list-inline i:hover {
+	color: black;
+}
+#introduction p {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
